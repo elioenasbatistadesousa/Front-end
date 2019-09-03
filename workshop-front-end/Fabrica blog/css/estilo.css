@@ -1,0 +1,124 @@
+/*
+	Limpando formatação
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+.h-navegacao li {
+	display: inline;
+}
+
+/*
+	Layout
+*/
+
+header {
+	background-color: #1f90ff;
+	padding: 15px;
+	text-align: center;
+}
+
+aside {
+	float: right;
+	width: 240px;
+}
+
+section#postagem {
+	float: left;
+	width: 660px;
+}
+
+article.artigo {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #ccc;
+}
+
+h1 {
+	color: #262626;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #1f90ff;
+}
+
+h3 {
+	color: #565656;
+	background-color: #ccc;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none; /* text-decoration: modifica as propriedades de decoração do texto */
+}
+
+/*
+	https://bit.ly/2HYPh3G
+*/
+a:link, a:visited {
+	color: #1f90ff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header a {
+	text-decoration: none; /* text-decoration: modifica as propriedades de decoração do texto */
+	padding: 10px 12px;
+}
+
+header a:link, header a:visited {
+	color: #fff;
+}
+
+header a:hover {
+	color: #1f90ff;
+	background: #fff;
+	text-decoration: none;
+}
+
+#logo, #h-menu {
+	padding: 10px;
+}
+
+#principal {
+	width: 920px;
+	margin: 0 auto;
+}
+
+.data-artigo {
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.texto-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+}
